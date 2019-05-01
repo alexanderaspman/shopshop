@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/cart.css">
+    <link rel="stylesheet" type="text/css" href="styles/cart_responsive.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+    <div class="cart_items">
+        <ul class="cart_items_list">
+
+            <!-- Cart Item -->
+            <li class="cart_item item_list d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-end justify-content-start">
+                <div class="product d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start mr-auto">
+                    <div>
+                        <div class="product_number">1</div>
+                    </div>
+                    <div>
+                        <div class="product_image"><img src="images/cart_item_1.jpg" alt=""></div>
+                    </div>
+                    <div class="product_name_container">
+                        <div class="product_name" id="kopkop"><a href="product.html" id="kopkopkop">You only picked one buy more</a></div>
+                        <div class="product_text" id="kopa">Second line for additional info</div>
+                    </div>
+                </div>
+                <div class="product_color product_text"><span>Color: </span>Crystalz</div>
+                <div class="product_size product_text">  <p id="total2">300</p></div>
+                <div class="product_price product_text"><span> </span>
+                    <span>pris </span>kr
+                </div>
+                <div class="product_quantity_container">
+                    <div class="product_quantity ml-lg-auto mr-lg-auto text-center">
+                        <span class="product_text product_num" id="pkpris">1</span>
+                        <div class="qty_sub qty_button trans_200 text-center" id="bak" onclick="fu('product_textproduct_num')"><span>-</span></div>
+                        <div class="qty_add qty_button trans_200 text-center" id="fram" onclick="f2('product_textproduct_num')"><span>+</span></div>
+                    </div>
+                </div>
+                <div class="product_total product_text"><span id="test">Total: </span>
+                    <p id="total">300 kr</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <script>
+
+        //         function fu(product_text product_num){
+        //             let bak=document.getElementsByClassName("qty_sub qty_button trans_200 text-center").innerText;
+        //         let fram=document.getElementsByClassName("qty_add qty_button trans_200 text-center").innerText;
+        //         let siffra=document.getElementsByClassName('product_text product_num').innerText;
+
+        // pkpris.innerHTML=-1;
+
+        //         }
+
+        //         function fu2(){
+
+        // pkpris.innerHTML=+1;
+        let prisetet = 0
+        let i = 0
+        let pris1 = 0
+        let b
+        while (i) {
+        }
+
+        $("#bak").click(function (data) {
+            i--
+            prisetet = i+   1
+            let pris = $("#total2").text()
+                pris1-=pris
+            $("#pkpris").text(prisetet);
+            $("#total").text(pris1+" kr");
+            if(prisetet<=3){
+                $('#kopkopkop').text("Är du dum i huvudet");
+                $("#kopa").text('Fattiglapp spänder');
+
+}           
+
+        });
+        $("#fram").click(function () {
+            i++;
+            prisetet = i+1;
+            let pris = $("#total2").text()
+            let antal = $("#pkpris").text()
+
+
+            pris1 = pris * prisetet
+
+            $("#pkpris").text(prisetet);
+            $("#total").text(pris1+" kr");
+            if(prisetet>=1){    
+            $('#kopkopkop').text("Nu börjar du likna någon");
+            $("#kopa").text('Men du kan bättre');
+        }
+        if(prisetet>=5){
+
+            $('#kopkopkop').text("Big spänder");
+            $("#kopa").text('Din pappa är rik');
+
+        }
+
+            //     jQuery.each( function( i, pris ) {
+            //   $( "#totalt" + i ).append( document.createTextNode(  + pris ) );
+        });
+     
+
+
+
+
+
+
+    </script>
+
+    <script src="" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+{
+
+
+
+    "prod1": {
+    "id": 1,
+    "name": "Montecristo cigarrer",
+    "category": 1,
+    "price": 2000,
+    "descriptions": "En låda Montecristo cigarrer som du kan fimpa direkt!",
+    "image": "images/montecristocigar.jpg"
+
+
+},
+
+    "prod2": {
+    "id": 2,
+    "name": "Röstkort",
+    "category": 1,
+    "price" : 10000,
+    "descriptions": "Ett röstkort som du kan använda till att rösta blankt i nästa regeringsval!",
+    "image": "images/röstkort.jpg"
+
+
+},
+
+    "prod3": {
+    "id": 3,
+    "name": "Fantomen på Operan biljet",
+    "category": 1,
+    "price" : 4000,
+    "descriptions":"Två biljetter till Fantomen på Operan som du sedan inte går på",
+    "image": "images/tickets.jpg"
+
+
+},
+
+    "prod4": {
+    "id": 4,
+    "name": "Aubry Champagne",
+    "category": 1,
+    "price" : 7000,
+    "descriptions":"En flaska Aubry champagne att vaska",
+    "image": "images/aubry.jpg"
+
+
+},
+
+    "prod5": {
+    "id": 5,
+    "name": "Marsvin",
+    "category": 1,
+    "price" : 2000,
+    "descriptions":"Ett gulligt marsvin att spola ner i toan ",
+    "image": "images/marsvin.jpg"
+
+
+},
+
+    "prod6": {
+    "id": 6,
+    "name": "Middag på Operakällaren",
+    "category": 1,
+    "price" : 3000,
+    "descriptions":"Middag för 2 på operakällarn som spys upp ",
+    "image": "images/dinner.jpg"
+
+
+},
+
+    "prod7": {
+    "id": 7,
+    "name": "Soffa från MIO med divan",
+    "category": 2,
+    "price" : 20000,
+    "descriptions":"Soffa från MIO som bränns upp",
+    "image": "images/soffa.jpg"
+
+
+},
+
+    "prod8": {
+    "id": 8,
+    "name": "Tvättstuga",
+    "category": 2,
+    "price" : 15000,
+    "descriptions": "Boka upp en hel hyresrätts tvättstuga i en månad",
+    "image": "images/tvättstuga.jpg"
+
+
+},
+    "prod9": {
+    "id": 9,
+    "name": "Minkpäls",
+    "category": 2,
+    "price" : 20000,
+    "descriptions": "En minkpäls att bränna upp ",
+    "image": "images/minkpäls.jpg"
+
+
+},
+
+    "prod10": {
+    "id": 10,
+    "name": "Njure",
+    "category": 2,
+    "price" : 70000,
+    "descriptions": "En njure som en ung frisk kvinna donerat som du kan stoppa direkt i köttkvarnen",
+    "image": "images/njure.jpg"
+
+
+},
+
+    "prod11": {
+    "id": 11,
+    "name": "HIV-medicin",
+    "category": 2,
+    "price" : 25000,
+    "descriptions":"Bromsmedicin för HIV som du sedan kan spola ner i toaletten",
+    "image": "images/HIV.jpg"
+
+
+},
+
+    "prod12": {
+    "id": 12,
+    "name": "Lady Dianas Vigselring",
+    "category": 2,
+    "price" : 200000,
+    "descriptions":"Lady Dianas vigsel i 24 karats guld som smälts ner",
+    "image": "ring.jpg"
+
+
+},
+    "prod13": {
+    "id": 13,
+    "name": "apartment",
+    "category": 3,
+    "price" : 7000000,
+    "descriptions": "en 4 ROK lägenhet i Norra Tornen som kan stå tomt",
+    "image": "norratornet.jpg"
+
+
+},
+    "prod14": {
+    "id": 14,
+    "name": "Helikopter",
+    "category": 3,
+    "price" : 700000,
+    "descriptions":"En helikopter som körs på autopilot och kraschar rakt in i en klippvägg",
+    "image": "heli.jpg"
+
+
+},
+    "prod15": {
+    "id": 15,
+    "name": "Yacht",
+    "category": 3,
+    "price" : 50000000,
+    "descriptions":"En Amels Limited Editions 220 yacht som du kan köra ut utan besättning i svenska skärgården och låta den sjunka till Östersjöns botten",
+    "image": "yacht.jpg"
+
+
+},
+    "prod16": {
+    "id": 16,
+    "name": "Stuga på Blidö",
+    "category": 3,
+    "price" : 10000000,
+    "descriptions":"Bränn ner en fin Stuga uppe i norrland",
+    "image": "torp.jpg"
+
+
+},
+    "prod17": {
+    "id": 17,
+    "name": "forest",
+    "category": 3,
+    "price" : 2000000,
+    "descriptions": "10 hektar regnskog som sedan skövlas",
+    "image": "forest.jpg"
+
+
+},
+    "prod18": {
+    "id": 18,
+    "name": "painting",
+    "category": 3,
+    "price" : 70000000,
+    "descriptions":"Picasso Weeping Woman målad i Frankrike ",
+    "image": "picasso.jpg"
+
+
+}
+
+
+
+
+
+
+
+
+}
