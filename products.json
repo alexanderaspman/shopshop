@@ -19,7 +19,7 @@
     "category": 1,
     "price" : 10000,
     "descriptions": "Ett röstkort som du kan använda till att rösta blankt i nästa regeringsval!",
-    "image": "images/ring.jpg"
+    "image": "images/rostkort.jpg"
 
 
 },
@@ -85,7 +85,7 @@
     "category": 2,
     "price" : 15000,
     "descriptions": "Boka upp en hel hyresrätts tvättstuga i en månad",
-    "image": "images/tvättstuga.jpg"
+    "image": "images/tvattstuga.jpg"
 
 
 },
@@ -95,7 +95,7 @@
     "category": 2,
     "price" : 20000,
     "descriptions": "En minkpäls att bränna upp ",
-    "image": "images/minkpäls.jpg"
+    "image": "images/minkpals.jpg"
 
 
 },
